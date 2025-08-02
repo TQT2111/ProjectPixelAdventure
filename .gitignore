@@ -14,7 +14,6 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
-# File tài nguyên lớn (như bạn yêu cầu chỉ push code)
 Assets/*.png
 Assets/*.jpg
 Assets/*.jpeg
@@ -24,11 +23,9 @@ Assets/*.mp4
 Assets/*.fbx
 Assets/*.unitypackage
 
-# Giữ file code và meta
 !Assets/*.cs
 !Assets/*.meta
 
-# Visual Studio / MonoDevelop
 *.csproj
 *.unityproj
 *.sln
