@@ -1,0 +1,49 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ProjectPixelAdvanture.sln
+/ProjectPixelAdvanture.sln
+
+# Unity generated
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# File tài nguyên lớn (như bạn yêu cầu chỉ push code)
+Assets/*.png
+Assets/*.jpg
+Assets/*.jpeg
+Assets/*.wav
+Assets/*.mp3
+Assets/*.mp4
+Assets/*.fbx
+Assets/*.unitypackage
+
+# Giữ file code và meta
+!Assets/*.cs
+!Assets/*.meta
+
+# Visual Studio / MonoDevelop
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# OS generated
+.DS_Store
+Thumbs.db
